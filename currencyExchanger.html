@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CurrencyNow - currency converter
+        </title>
+        <link rel="stylesheet" 
+              href="style.css"/>
+        <link rel="stylesheet" 
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+         crossorigin="anonymous" 
+         referrerpolicy="no-referrer" />
+    </head>
+    <body id="body"></body>
+        
+      <div id="outline_div"> 
+        <div id="img_effects"></div>
+      </div>
+      <div id="logo"></div>
+      <div id="design_1"></div>
+      <form>
+        <div id="design_2">
+            <div id="input" class="io">
+                <div id="input_box_design" class="box_design border">
+                    <p id="amount" class="amount_result">Amount</p>
+                    <input id="input_box" class="io_boxes" type="text" placeholder="1.00">
+                </div>
+                <div><p class="text_style">From</p>
+                    <img class="flag" src="https://flagsapi.com/US/flat/64.png">
+                    <div class="box_design border">
+                        <select id="from" class="dropdown">
+                            <option></option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="output" class="io">
+                <div id="output_box_design" class="box_design">
+                    <p class="amount_result">Result</p>
+                    <div id="result" class="io_boxes"></div>
+                </div>
+                <div id="output_div">
+                    <p class="text_style">To</p>
+                    <img class="flag" src="https://flagsapi.com/IN/flat/64.png">
+                    <div class="box_design border">
+                        <select id="to" class="dropdown">
+                            <option></option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button id="button"class="border">Get Exchange</button>
+            <div id="icon"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+        </div>
+       </form>
+       <script src="countryCurrencyCode.js"></script>
+        <script src="calculation.js"></script>
+        <script src="bonus.js"></script>
+    </body>
+</html>

@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#outline_div{
+    height:729px;
+    background-image: url("currency_image.jpg");
+    background-size: cover;
+}
+#img_effects{
+    height: 729px;
+    background-color: rgba(0,0,0,0.6);
+}
+#design_1{
+    position:absolute;
+    top:50px; left:250px;
+    height:629px;
+    width:1050px;
+    background-color:rgb(255, 255, 255,0.7);
+    border-radius: 40px;
+}
+#design_2{
+    position:absolute;
+    top:100px;left:305px;
+    height:529px;
+    width:940px;
+    background-color:rgb(255, 255, 255,0.7);
+    border-radius: 40px;
+}
+.io{
+    height:320px;
+    width:300px;
+    background-color:transparent;
+    
+}
+#input{
+    position: absolute;
+    top:65px;
+    left:70px;
+}
+#output{
+    position:absolute;
+    top:65px;
+    right:70px;
+}
+#input_box_design{
+    height:100px;
+    border-radius: 10px;
+    
+}
+#output_box_design{
+    position:absolute;
+    height:100px;
+    width:300px;
+    border-radius: 10px;
+}
+.box_design{
+    border: 3px solid grey;
+    background-color: rgb(232, 230, 230);
+}
+.text_style{
+    margin-top:25px;
+    margin-left: 25px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.amount_result{
+    position:absolute;
+    top: 15px;
+    left:15px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.io_boxes{
+    position: absolute;
+    font-size:30px;
+    top:55px;
+    left:15px;
+    width:200px;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(232, 230, 230); 
+}
+.flag{
+    margin-left: 100px;
+    height:100px;
+}
+.dropdown{
+    height:50px;
+    width:296px;
+    background-color: rgb(232, 230, 230);
+    font-size: 20px;
+    font-weight: 600;
+}
+#output_div{
+    position:absolute;
+    top:106px;
+}
+button{
+    position:absolute;
+    left:320px;
+    top:415px;
+    width:300px;
+    height:70px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    background-color: rgb(232, 230, 230);
+}
+#icon{
+    position:absolute;
+    top:250px;
+    left:440px;
+    font-size: 40px;
+}
+.border:hover{
+    border: 3px solid black;
+}
+h1{
+    
+}
