@@ -26,6 +26,7 @@ The conversion logic in get_final_result performs an asynchronous fetch to the e
 Output Value=Input Value×Exchange Rate
 
 
+<img width="1839" height="875" alt="image" src="https://github.com/user-attachments/assets/c34ec1f9-671f-46e8-8273-74c0e935ad59" />
 
 
 
